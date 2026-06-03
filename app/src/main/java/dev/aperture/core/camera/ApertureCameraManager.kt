@@ -64,7 +64,7 @@ class ApertureCameraManager(
         // 1. Preview — renders the live viewfinder at sensor-native resolution.
         val preview = Preview.Builder()
             .build()
-            .also { it.surfaceProvider = previewView.surfaceProvider }
+            .also { it.setSurfaceProvider(previewView.surfaceProvider) }
 
         // 2. ImageAnalysis — feeds frames into the perception pipeline.
         //    Target 1080p for analysis to keep memory bounded while preserving

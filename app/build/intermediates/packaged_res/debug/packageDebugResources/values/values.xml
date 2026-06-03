@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#0A0A0F</color>
+    <color name="ic_launcher_foreground">#34D399</color>
+    <string name="app_name">ApertureAI</string>
+    <string name="camera_permission_denied">Camera permission is required. Please grant it in Settings.</string>
+    <string name="camera_permission_rationale">ApertureAI needs camera access to provide real-time composition guidance.</string>
+    <string name="debug_overlay_title">Vision Engine Telemetry</string>
+    <string name="mode_live">Live</string>
+    <string name="mode_mock">Mock</string>
+    <string name="tier_label">Tier</string>
+    <style name="Theme.ApertureAI" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>
